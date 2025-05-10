@@ -1,0 +1,16 @@
+<!-- login.jsp -->
+<form action="auth" method="post">
+    <input type="hidden" name="action" value="login" />
+    Email: <input type="text" name="email" required /><br/>
+    Password: <input type="password" name="password" required /><br/>
+    <button type="submit">Login</button>
+</form>
+
+<!-- register.jsp -->
+<form action="auth" method="post">
+    <input type="hidden" name="action" value="register" />
+    Name: <input type="text" name="name" required /><br/>
+    Email: <input type="email" name="email" required /><br/>
+    Password: <input type="password" name="password" required /><br/>
+    <button type="submit">Register</button>
+</form>
